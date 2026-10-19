@@ -2,14 +2,14 @@
 //  GestureRecognitionFunc.swift
 //  CameraTest
 //
-//  Created by Rakan on 2023/8/11.
+//  Created by Cyrus Wu on 2023/8/11.
 //
 
 import Foundation
 
 class GestureRecognitionService {
     
-    // 调用手势识别 API
+    // Encode Base64 characters for a URL-encoded form body
     func base64ToBase64url(base64: String) -> String {
         let base64url = base64
             .replacingOccurrences(of: "+", with: "%2B")
@@ -24,10 +24,10 @@ class GestureRecognitionService {
         request.httpMethod = "POST"
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         
-        // 进行URL编码
+        // URL-encode the Base64 image
         let encodedBase64 = base64ToBase64url(base64: base64Image)
         let bodyData = "image=\(encodedBase64)"
-            // 使用 bodyData
+            // Print the request body for debugging
         print(bodyData)
 
         
