@@ -2,7 +2,7 @@
 //  TokenManager.swift
 //  CameraTest
 //
-//  Created by Rakan on 2023/8/11.
+//  Created by Cyrus Wu on 2023/8/11.
 //
 import Foundation
 
