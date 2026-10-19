@@ -15,7 +15,7 @@ class TokenManager {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         
-        let bodyData = "grant_type=client_credentials&client_id=z3N4eHZ0fnuPlRWmLO2qv9wi&client_secret=wDzXYKVGH8WErFUdKkOrGocm5b0lmqGt"
+        let bodyData = "grant_type=client_credentials&client_id=YOUR_API_KEY&client_secret=YOUR_SECRET_KEY"
         request.httpBody = bodyData.data(using: .utf8)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
