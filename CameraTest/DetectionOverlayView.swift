@@ -2,7 +2,7 @@
 //  ResultOverlayView.swift
 //  CameraTest
 //
-//  Created by Rakan on 2023/8/17.
+//  Created by Cyrus Wu on 2023/8/17.
 //
 
 import SwiftUI
