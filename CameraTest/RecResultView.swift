@@ -2,7 +2,7 @@
 //  RecResultView.swift
 //  CameraTest
 //
-//  Created by Rakan on 2023/8/15.
+//  Created by Cyrus Wu on 2023/8/15.
 //
 
 import SwiftUI
